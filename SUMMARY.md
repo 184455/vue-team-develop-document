@@ -4,9 +4,15 @@
 
 * [GitBook](./gitbook/README.md)
 
-* [代码风格](./coding-standard/README.md)
+* [代码组织规范](./coding-standard/README.md)
 
     * [项目结构](./coding-standard/catalog.md)
+
+    * [Vue 文件编写代码规范](./coding-standard/vue-file.md)
+
+    * [项目注释规范](./coding-standard/comment.md)
+
+    * [Git 提交规范](./coding-standard/code-commit.md)
 
 * [数据中心](./store/README.md)
     
@@ -22,6 +28,6 @@
     
     * [Index](./store/_index.md)
 
-* [项目规范](./project/README.md)
+* [生产代码讲解](./project/README.md)
 
     * [首页](./project/home/view-home.md)
