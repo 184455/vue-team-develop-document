@@ -52,16 +52,16 @@ import ArticleDetail from 'xxx'
     components: {},       // 组件定义。
     directives: {},       // 指令定义。
     mixins: [],           // 混入 Mixin 定义。
-    data() {              // Data 定义。
+    data () {              // Data 定义。
       return {
         dataProps: ''     // Data 属性的每一个变量都需要在后面写注释说明用途，就像这样
       }
     },
     computed: {},         // 计算属性定义。
-    created() {},         // 生命钩子函数，按照他们调用的顺序。
-    mounted() {},         // 挂载到元素。
-    activated() {},       // 使用 keep-alive 包裹的组件激活触发的钩子函数。
-    deactivated() {},     // 使用 keep-alive 包裹的组件离开时触发的钩子函数。
+    created () {},         // 生命钩子函数，按照他们调用的顺序。
+    mounted () {},         // 挂载到元素。
+    activated () {},       // 使用 keep-alive 包裹的组件激活触发的钩子函数。
+    deactivated () {},     // 使用 keep-alive 包裹的组件离开时触发的钩子函数。
     watch: {},            // 属性变化监听器。
     methods: {            // 组件方法定义。
       publicbFunction () {}  // 公共方法的定义，可以提供外面使用
