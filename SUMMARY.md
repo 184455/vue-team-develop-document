@@ -14,19 +14,19 @@
 
     * [Git 提交规范](./coding-standard/code-commit.md)
 
-* [数据中心](./store/README.md)
-    
-    * [State](./store/state.md)
+    * [数据中心](./coding-standard/store/README.md)
+        
+        * [State](./coding-standard/store/state.md)
 
-    * [Mutations](./store/mutations.md)
-    
-    * [Mutation.types](./store/mutations.types.md)
-    
-    * [Actions](./store/actions.md)
-    
-    * [Getters](./store/getters.md)
-    
-    * [Index](./store/_index.md)
+        * [Mutations](./coding-standard/store/mutations.md)
+        
+        * [Mutation.types](./coding-standard/store/mutations.types.md)
+        
+        * [Actions](./coding-standard/store/actions.md)
+        
+        * [Getters](./coding-standard/store/getters.md)
+        
+        * [Index](./coding-standard/store/_index.md)
 
 * [生产代码讲解](./project/README.md)
 
