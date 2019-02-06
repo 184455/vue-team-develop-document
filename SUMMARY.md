@@ -28,6 +28,10 @@
         
         * [Index](./coding-standard/store/_index.md)
 
+    * [路由规范](./coding-standard/router.md)
+
 * [生产代码讲解](./project/README.md)
+
+    * [项目前期准备](./project/project-prepare/README.md)
 
     * [首页](./project/home/view-home.md)
