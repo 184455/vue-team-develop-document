@@ -1,10 +1,12 @@
 {
-  "title": "Vue 项目规范文档",
+  "title": "Vue - 开发规范",
+  "author": "1154715918@qq.com",
   "description": "Vue 项目移动端团队开发规范",
-  "language": "zh",
+  "language" : "zh-hans",
   "plugins": [
     "expandable-chapters",
-    "prism"
+    "prism",
+    "splitter"
   ],
   "pdf": {
     "fontSize": 14,
