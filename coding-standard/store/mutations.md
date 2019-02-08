@@ -4,10 +4,10 @@
 
 这就引出了我们这节的主要内容：**<span style="color: red;">同步修改 State 中的数据</span>**。
 
-> **注意：**修改 State 里面的数据有同步方法和异步方法，Vuex 中有严格的规定，不能混用。稍后将会说异步方法。
+> <strong>注意：</strong>修改 State 里面的数据有同步方法和异步方法，Vuex 中有严格的规定，不能混用。稍后将会说异步方法。
 
 <br/>
-根据 Vuex 的规定：更改 Vuex 的 store 中的状态的唯一方法是提交 mutation。Vuex 中的 mutation 非常类似于事件：每个 mutation 都有一个字符串的 **事件类型 (type)** 和 **一个 回调函数 (handler)**。这个回调函数就是我们实际进行状态更改的地方，并且它会接受 state 作为第一个参数和载荷：
+根据 Vuex 的规定：更改 Vuex 的 store 中的状态的唯一方法是提交 mutation。Vuex 中的 mutation 非常类似于事件：每个 mutation 都有一个字符串的 <strong>事件类型 (type)</strong> 和 <strong>一个 回调函数 (handler)</strong>。这个回调函数就是我们实际进行状态更改的地方，并且它会接受 state 作为第一个参数和载荷：
 ```javascript
 new Vuex.Store({
   state: {
@@ -33,11 +33,11 @@ store.commit('modefyCarData', [
 
 ### 优化
 
-**1、单独维护一个mutations 文件。**想想看，当我们有很多状态需要维护的时候，```new Vuex.Store({})```部分就会显得特别臃肿，难以维护。所以这就解释了在开始介绍目录的时候，为什么会多出来这么多的文件夹。把单独功能的部分抽离出来，更方便维护。包括后面的：actions，getters 是相同的道理。
+<strong>1、单独维护一个mutations 文件。</strong>想想看，当我们有很多状态需要维护的时候，```new Vuex.Store({})```部分就会显得特别臃肿，难以维护。所以这就解释了在开始介绍目录的时候，为什么会多出来这么多的文件夹。把单独功能的部分抽离出来，更方便维护。包括后面的：actions，getters 是相同的道理。
 
-**2、单独维护一个事件类型文件。**既然前面说了：在 mutations 中定义的是一个事件类型，所以我们也可以单独把 mutations 的类型提取出来单独维护。
+<strong>2、单独维护一个事件类型文件。</strong>既然前面说了：在 mutations 中定义的是一个事件类型，所以我们也可以单独把 mutations 的类型提取出来单独维护。
 
-**3、使用数据中心的语法糖。**我们每次提交都会手动的调用 ```store.commit(type, paloy)``` 的方式，感觉很麻烦。这一点贴心的作者给我们提供了几个语法糖：mapMutations, mapActions, mapGetters 分别对应到：mutations, actoins, getters，它们把后面的脏活累活都做了。
+<strong>3、使用数据中心的语法糖。</strong>我们每次提交都会手动的调用 ```store.commit(type, paloy)``` 的方式，感觉很麻烦。这一点贴心的作者给我们提供了几个语法糖：mapMutations, mapActions, mapGetters 分别对应到：mutations, actoins, getters，它们把后面的脏活累活都做了。
 
 所以根据以上的优化，在项目中，应该是这样的：
 

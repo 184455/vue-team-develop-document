@@ -1,6 +1,6 @@
 # 项目代码构建规范
 
-> **要求：**此项目规范应用于 Vue 项目。<br/>
+> <strong>要求：</strong>此项目规范应用于 Vue 项目。<br/>
 脚手架：<font color=red>vue/cli > 3.0</font><br/>
 Node版本：<font color=red>node.js > 8.9</font>
 
@@ -20,10 +20,10 @@ Node版本：<font color=red>node.js > 8.9</font>
 
 ## 以下是一些全局的约定
 
-**1、**我们会默认使用 Eslint 静态检查工具检查你的代码，该规范建立在 Eslint 的前提。
+<strong>1、</strong>我们会默认使用 Eslint 静态检查工具检查你的代码，该规范建立在 Eslint 的前提。
 
-**2、**凡事涉及组件的情况，一律按照类(class)的概念处理，命名一律：大写字母开头的驼峰法。
+<strong>2、</strong>凡事涉及组件的情况，一律按照类(class)的概念处理，命名一律：大写字母开头的驼峰法。
 
-**3、小驼峰法：**以小写字母开头的驼峰法命名。
+<strong>3、小驼峰法：</strong>以小写字母开头的驼峰法命名。
 
-**4、大驼峰法：**以大写字母开头的驼峰法命名。
+<strong>4、大驼峰法：</strong>以大写字母开头的驼峰法命名。

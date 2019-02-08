@@ -9,7 +9,7 @@
 
 2、Action 可以包含任意异步操作。
 
-这两点有点区别。还记得前面的 mutations 同步提交的时候只支持一个传入的 state 参数吗？**在Actions 里面传递的参数不同了：**Action 函数接受一个与 store 实例具有相同方法和属性的 context 对象，因此你可以调用 context.commit 提交一个 mutation，或者通过 context.state 和 context.getters 来获取 state 和 getters。
+这两点有点区别。还记得前面的 mutations 同步提交的时候只支持一个传入的 state 参数吗？<strong>在Actions 里面传递的参数不同了：</strong>Action 函数接受一个与 store 实例具有相同方法和属性的 context 对象，因此你可以调用 context.commit 提交一个 mutation，或者通过 context.state 和 context.getters 来获取 state 和 getters。
 
 ```javascript
 actions: {
