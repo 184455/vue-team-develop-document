@@ -33,7 +33,7 @@
    后面的两种方式需要一个安装一个第三方的插件：calibre，自己百度安装。然后配置对应的环境路径。
 
 ## 使用过程中遇到的问题
-<strong><span style="color: red;">注意：以下截图出自</span></strong>：[https://blog.csdn.net/Hulu_IT/article/details/84977390](https://blog.csdn.net/Hulu_IT/article/details/84977390)
+**<span style="color: red;">注意：以下截图出自</span></strong>：[https://blog.csdn.net/Hulu_IT/article/details/84977390](https://blog.csdn.net/Hulu_IT/article/details/84977390)
 
 > 需要复制命令的，自行点开连接。并且针对 MAC OS 的用户使用，Windows 配置环境变量，自己百度。
 
@@ -41,7 +41,7 @@
 
 ![avatar](./images/gitbook_question.png)
 
-<strong>还有一个比较关心的问题：在项目中，我们都有一个：package.json 文件来管理我们的依赖，在 gitbook 中没有这个文件，取而代之的是：book.json。</strong><br/>
+**还有一个比较关心的问题：在项目中，我们都有一个：package.json 文件来管理我们的依赖，在 gitbook 中没有这个文件，取而代之的是：book.json。</strong><br/>
 关于里面详细的配置项，推荐你看下面的：*gitbook 实用配置及插件介绍*。如果里面的东西还不能满足你的需求，你可以谷歌或百度你需要的插件。
 
 `最后放上两个自己平时用的最多的，关于gitbook 的使用，配置的连接：`
