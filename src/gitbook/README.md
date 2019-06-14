@@ -4,11 +4,11 @@
 
 ## 什么是 GitBook？
 
-> GitBook 是一个基于 Node.js 的命令行工具，支持 Markdown 和 AsciiDoc 两种语法格式，可以输出 HTML、PDF、eBook 等格式的电子书。所以我更喜欢把 GitBook 定义为文档格式转换工具。 
+> GitBook 是一个基于 Node.js 的命令行工具，支持 Markdown 和 AsciiDoc 两种语法格式，可以输出 HTML、PDF、eBook 等格式的电子书。所以我更喜欢把 GitBook 定义为文档格式转换工具。
 
 ## 如何使用？
 
-**1、安装 node.js。**
+**1、安装 node.js**.
 
 **2、安装 GitBook：**```npm install -g gitbook-cli```
 
@@ -16,9 +16,10 @@
 
 **3、初始化一个 GitBook 的项目**：```gitbook init```
 
-> 然后目录下面就会多出来两个目录：<br/>
-   README.md &nbsp;&nbsp;&nbsp;—— 书籍的介绍写在这个文件里<br/>
-   SUMMARY.md —— 书籍的目录结构在这里配置<br/>
+> 然后目录下面就会多出来两个目录：
+
+   README.md &nbsp;&nbsp;&nbsp;—— 书籍的介绍写在这个文件里
+   SUMMARY.md —— 书籍的目录结构在这里配置
  有了这些文件夹，你就可以在对应目录创建自己的 markdown 文件了，开始自己的写作之路！
 
  **4、执行：**```gitbook serve``` **命令，在本地开启一个开发预览模式**。开发体验和 Vue 的项目是一样的，编辑器编写，然后自动实现开发热加载，在浏览器中实时查看效果。
@@ -27,21 +28,21 @@
 
  **5、创作完毕，构建最终产品：**```gitbook build```
 
- > ```gitbook build```: 构建的是可以部署在服务器上的 HTML 文件；<br/>
-   ```gitbook pdf```: 最终输出一个 PDF 的产品<br/>
-   ```gitbook mobi```: 构建成电子书<br/>
+ > ```gitbook build```: 构建的是可以部署在服务器上的 HTML 文件；
+
+   ```gitbook pdf```: 最终输出一个 PDF 的产品
+   ```gitbook mobi```: 构建成电子书
    后面的两种方式需要一个安装一个第三方的插件：calibre，自己百度安装。然后配置对应的环境路径。
 
 ## 使用过程中遇到的问题
-**<span style="color: red;">注意：以下截图出自</span></strong>：[https://blog.csdn.net/Hulu_IT/article/details/84977390](https://blog.csdn.net/Hulu_IT/article/details/84977390)
+
+**注意：以下截图出自**：[https://blog.csdn.net/Hulu_IT/article/details/84977390](https://blog.csdn.net/Hulu_IT/article/details/84977390)
 
 > 需要复制命令的，自行点开连接。并且针对 MAC OS 的用户使用，Windows 配置环境变量，自己百度。
 
-<br/><br/>
-
 ![avatar](./images/gitbook_question.png)
 
-**还有一个比较关心的问题：在项目中，我们都有一个：package.json 文件来管理我们的依赖，在 gitbook 中没有这个文件，取而代之的是：book.json。</strong><br/>
+**还有一个比较关心的问题：在项目中，我们都有一个：package.json 文件来管理我们的依赖，在 gitbook 中没有这个文件，取而代之的是：book.json。
 关于里面详细的配置项，推荐你看下面的：*gitbook 实用配置及插件介绍*。如果里面的东西还不能满足你的需求，你可以谷歌或百度你需要的插件。
 
 `最后放上两个自己平时用的最多的，关于gitbook 的使用，配置的连接：`

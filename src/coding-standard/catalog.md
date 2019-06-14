@@ -1,6 +1,6 @@
 # 目录构建规范
 
-```
+```html
 ── project-name
    ├── public                    项目公共目录
    │   ├── favicon.ico               Favourite 图标

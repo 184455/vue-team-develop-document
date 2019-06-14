@@ -26,7 +26,7 @@ methods: {
 }
 ```
 
-**调用一下方法就可以获得数据，很简单。**
+**调用一下方法就可以获得数据，很简单**。
 
 但是我们通过把，getter 分离出来，加上ES6 的语法，这里的函数定义会更简单：
 
@@ -39,6 +39,5 @@ export const getCardData = state => state.cardData
 
 我们这里讲了这么多，希望那你不要混淆。所以下一节，你将会看到一个完整的例子，到时候你会体会到，这样定义的初衷。
 
-<br/><br/>
 参考资料：
 官网 Getters：[https://vuex.vuejs.org/zh/guide/getters.html](https://vuex.vuejs.org/zh/guide/getters.html)

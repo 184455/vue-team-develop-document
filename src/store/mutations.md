@@ -2,12 +2,12 @@
 
 经过上面一节，你已经迈出了第一步：如何定一个数据源。仓库是有了，但是我们如何在里面存储东西呢？
 
-这就引出了我们这节的主要内容：**<span style="color: red;">同步修改 State 中的数据</span>**。
+这就引出了我们这节的主要内容：**同步修改 State 中的数据**。
 
-> **注意：</strong>修改 State 里面的数据有同步方法和异步方法，Vuex 中有严格的规定，不能混用。稍后将会说异步方法。
+> **注意**：修改 State 里面的数据有同步方法和异步方法，Vuex 中有严格的规定，不能混用。稍后将会说异步方法。
 
-<br/>
-根据 Vuex 的规定：更改 Vuex 的 store 中的状态的唯一方法是提交 mutation。Vuex 中的 mutation 非常类似于事件：每个 mutation 都有一个字符串的 **事件类型 (type)</strong> 和 **一个 回调函数 (handler)</strong>。这个回调函数就是我们实际进行状态更改的地方，并且它会接受 state 作为第一个参数和载荷：
+根据 Vuex 的规定：更改 Vuex 的 store 中的状态的唯一方法是提交 mutation。Vuex 中的 mutation 非常类似于事件：每个 mutation 都有一个字符串的 **事件类型 (type)** 和 **一个 回调函数 (handler)**。这个回调函数就是我们实际进行状态更改的地方，并且它会接受 state 作为第一个参数和载荷：
+
 ```javascript
 new Vuex.Store({
   state: {
@@ -29,9 +29,10 @@ store.commit('modefyCarData', [
   // 购物车载荷数据
 ])
 ```
+
 到这里，你应该就已经初步知道怎么修改 State 的数据了。但是感觉修改的路径特别长，而且特别麻烦，有没有更好的办法呢？答案是：有的！
 
-### 优化
+## 优化
 
 **1、单独维护一个mutations 文件。</strong>想想看，当我们有很多状态需要维护的时候，```new Vuex.Store({})```部分就会显得特别臃肿，难以维护。所以这就解释了在开始介绍目录的时候，为什么会多出来这么多的文件夹。把单独功能的部分抽离出来，更方便维护。包括后面的：actions，getters 是相同的道理。
 
@@ -49,6 +50,7 @@ store.commit('modefyCarData', [
 */
 export const SET_CARD_DATA = 'SET_CARD_DATA'
 ```
+
 ```javascript
 // mutations.js
 import * as types from './mutations.types.js' // 引入事件类型
@@ -81,8 +83,7 @@ methods: {
     ])
   }
 }
-``` 
+```
 
-<br/><br/>
 参考资料：
 官网 Mutations：[https://vuex.vuejs.org/zh/guide/mutations.html](https://vuex.vuejs.org/zh/guide/mutations.html)

@@ -2,36 +2,30 @@
 
 * [介绍](./README.md)
 
-* [GitBook](./gitbook/README.md)
+* [项目结构](./src/coding-standard/catalog.md)
 
-* [代码组织规范](./coding-standard/README.md)
+* [项目规范: 必读！](./src/coding-standard/README.md)
 
-    * [项目结构](./coding-standard/catalog.md)
+  * [Vue 文件编写代码约定](./src/coding-standard/vue-file.md)
 
-    * [Vue 文件编写代码规范](./coding-standard/vue-file.md)
+  * [项目注释约定](./src/coding-standard/comment.md)
 
-    * [项目注释规范](./coding-standard/comment.md)
+  * [Git 提交约定](./src/coding-standard/code-commit.md)
 
-    * [Git 提交规范](./coding-standard/code-commit.md)
+* [数据中心: Store](./src/store/README.md)
 
-    * [数据中心](./coding-standard/store/README.md)
-        
-        * [State](./coding-standard/store/state.md)
+  * [State](./src/store/state.md)
 
-        * [Mutations](./coding-standard/store/mutations.md)
-        
-        * [Mutation.types](./coding-standard/store/mutations.types.md)
-        
-        * [Actions](./coding-standard/store/actions.md)
-        
-        * [Getters](./coding-standard/store/getters.md)
-        
-        * [Index](./coding-standard/store/_index.md)
+  * [Mutations](./src/store/mutations.md)
 
-    * [路由规范](./coding-standard/router.md)
+  * [Mutation.types](./src/store/mutations.types.md)
 
-* [生产代码讲解](./project/README.md)
+  * [Actions](./src/store/actions.md)
 
-    * [项目前期准备](./project/project-prepare/README.md)
+  * [Getters](./src/store/getters.md)
 
-    * [首页](./project/home/view-home.md)
+  * [Index](./src/store/_index.md)
+
+* [路由规范](./src/coding-standard/router.md)
+
+* [GitBook](./src/gitbook/README.md)
