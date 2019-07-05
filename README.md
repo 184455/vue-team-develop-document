@@ -74,6 +74,7 @@ gitbook install
 gitbook serve
 ```
 
+
 > 打开浏览器访问：<http://localhost:4000/>
 
 我们默认你已经安装了：node.js，gitbook 等工具。然后你就能看到项目，并且本地调试是热更新的。
